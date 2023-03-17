@@ -11,7 +11,7 @@ const Todo = ({ onClick, completed, text, id }) => {
                 color: completed ? 'green' : 'white'  
             } 
         }>
-            {id} - {text}
+            {id +1} - {text}
         </li>
     );
 }

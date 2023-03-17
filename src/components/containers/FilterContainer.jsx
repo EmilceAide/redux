@@ -1,4 +1,3 @@
-import React from 'react'
 import { connect } from 'react-redux'
 import { setVisibilityFilter } from '../../store/actions/actions'
 import Filter from '../pure/Filter'
